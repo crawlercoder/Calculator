@@ -1,2 +1,2 @@
-# oibsip_3
+# Calculator Using Javascript
 Calculator  using HTML,CSS,Javascript
