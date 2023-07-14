@@ -10,22 +10,24 @@
 
 
 html {
-	background: #d4d7d8;
+	background: #50586C;
 }
 .calc{
    text-align: center;
    font-size: 2.5rem;
    margin-top: 20px;
+   color: #F5D042;
 }
 
 #calculator {
 	width: 327px;
 	height: auto;
 	margin: 60px auto;
-   background: #ebf5ff;
+   background: #DCE2F0;
    padding: 20px;
    border-radius: 10px;
    border: 1px solid black;
+   box-shadow: #240303 1px 1px 3px;
 
 }
 
@@ -42,9 +44,10 @@ html {
   margin-bottom:10px;
 	font-size: 30px;
 	line-height: 90px;
-	color: white;
+	color: rgb(30, 28, 28);
 	text-align: right;
   overflow:auto;
+  box-shadow: #240303 1px 1px 3px;
 }
 
 .keys  {
@@ -70,37 +73,38 @@ html {
 .keys span.operator {
    border: 1px solid black;
    border-radius: 15px;
-   color: #d6643f;
+   color: #9196ae;
 	margin-right: 0;
+	background: #1E4174;
 }
 
 .keys span.eval {
-	background: #d6643f;
+	background: #1a285e;
 	color: #ffffff;
   width: 210px;
 }
 
 span.clear {
-   background: #d6643f;
+   background: #1a285e;
 	color: #ffffff;
    margin-right: 0;
 }
 
 
 .keys span:hover {
-	background: #795ebd;
+	background: #26205d;
 	color: white;
 }
 
 .keys span.eval:hover {
-	background: #f37c4c;
+	background: #231669;
 	/* box-shadow: 0px 4px #d65f3d; */
 	color: #ffffff;
    
 }
 
 .keys span.operator:hover {
-	background: #5d7bba;
+	background: #2f2b6b;
 	color: #ffffff;
 }
 
@@ -113,6 +117,6 @@ span.clear {
 footer{
    text-align: center;
    font-size: 1rem;
-   color:black;
+   color:#F5D042;
    margin:20px 0px;
 }
